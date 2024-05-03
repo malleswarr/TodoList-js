@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information</title>
+    <link rel="stylesheet" href="Employees.css"></link>
+</head>
+<body>
+    <div class="employees_container">
+    <h2>Employee Information</h2>
+    <form id="addEmployeeForm">
+        <div>
+        <label for="employeeName">Employee Name:</label> <br />
+        <input type="text" id="employeeName" required placeholder=" FullName">
+    </div>
+    <div>
+        <label for="employeeAge">Age:</label><br />
+        <input type="number" id="employeeAge" required placeholder="Age">
+    </div>
+    <div>
+        <label for="employeeDesignation">Designation:</label><br />
+        <input type="text" id="employeeDesignation" required placeholder= "Designation">
+    </div>
+    <div>
+        <label for="employeeNumber">Number:</label><br />
+        <input type="number" id="employeeNumber" required placeholder="Contact Number" maxlength="10">
+    </div>
+    <div>
+        <button type="submit">Add Employee</button>
+    </div>
+</form>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Age</th>
+                <th>Designation</th>
+                <th>Number</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTableBody"></tbody>
+    </table>
+</div>
+    <script src="./Employees.js"> </script>
+</body>
+</html>

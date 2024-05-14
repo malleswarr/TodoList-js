@@ -49,6 +49,15 @@ table {
     height: 150px;
     text-align: center;
 }
+#searchInput{
+    height: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 20%;
+    margin-top: 8px !important;
+    padding: 2px 5px;
+}
 
 th, td {
     padding: 8px;
